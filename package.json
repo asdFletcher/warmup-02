@@ -1,0 +1,24 @@
+{
+  "name": "warmup-02",
+  "version": "1.0.0",
+  "description": "github repo: https://github.com/asdFletcher/warmup-02 heroku:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdFletcher/warmup-02.git"
+  },
+  "author": "Fletcher LaRue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asdFletcher/warmup-02/issues"
+  },
+  "homepage": "https://github.com/asdFletcher/warmup-02#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "jest": "^23.6.0"
+  }
+}
