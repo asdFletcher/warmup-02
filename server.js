@@ -20,7 +20,7 @@ app.get('/', (req,res) => {
 });
 
 app.post('/save', (req,res) => {
-    res.jsoin(req.body);
+    res.json(req.body);
 });
 
 app.get('/err', (req,res,next) => {
@@ -30,7 +30,7 @@ app.get('/err', (req,res,next) => {
 app.get('*', (req,res) => {
     res.status(404);
     res.statusMessage = 'Page not found';
-    app.render('not-found', {request: req});
+    res.render('not-found', {request: req});
 });
 
 app.use( (err,req,res,next) => {
@@ -40,7 +40,7 @@ app.use( (err,req,res,next) => {
 })
 
 
-app.listen (8080, ()=> console.log('server up on 8080'));
+// app.listen (8080, ()=> console.log('server up on 8080'));
 
 module.exports = {
     server: app,
