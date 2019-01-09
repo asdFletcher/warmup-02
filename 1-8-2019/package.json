@@ -1,0 +1,21 @@
+{
+  "name": "1-8-2019",
+  "version": "1.0.0",
+  "description": "github repo: https://github.com/asdFletcher/warmup-02 heroku:",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "supertest": "^3.3.0"
+  }
+}
