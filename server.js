@@ -33,7 +33,7 @@ app.get('*', routes.handleCatchAll);
 
 app.use(routes.handleError);
 
-// app.listen(port, ()=> console.log(`listening on port:${port}`));
+app.listen(port, ()=> console.log(`listening on port:${port}`));
 
 module.exports = {
   server: app,
