@@ -1,0 +1,26 @@
+{
+  "name": "warmup-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdFletcher/warmup-02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asdFletcher/warmup-02/issues"
+  },
+  "homepage": "https://github.com/asdFletcher/warmup-02#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "supertest": "^3.4.2"
+  }
+}
