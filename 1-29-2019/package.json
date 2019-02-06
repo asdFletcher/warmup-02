@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asdFletcher/warmup-02.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,10 +19,8 @@
   "homepage": "https://github.com/asdFletcher/warmup-02#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "jest": "^24.1.0",
     "supertest": "^3.4.2"
   }
 }
